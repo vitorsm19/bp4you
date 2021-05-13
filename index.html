@@ -1,34 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backpacks For You</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/glider.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <a class="logo" href="/" ><img src="logo.png" alt="logo" class="img-logo"></a>
-        <nav>
-            <ul class="nav__links">
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="#">Contact</a>
-        <p class="menu cta">Menu</p>
-    </header>
-    <div id="mobile__menu" class="overlay">
-        <a class="close">&times;</a>
-        <div class="overlay__content">
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-            <a href="#">About</a>
-        </div>
+  <header>
+    <a class="logo" href="/"><img src="assets/images/logo.png" alt="logo" class="img-logo"></a>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#">Best Seller</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#">Contact</a>
+    <p class="menu cta">Menu</p>
+  </header>
+  <div id="mobile__menu" class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+      <a href="#">Best Seller</a>
+      <a href="#">Categories</a>
     </div>
-    <script type="text/javascript" src="script.js"></script>
+  </div>
+  <div class="hero">
+    <div class="hero-content">
+      <span class="hero-title">Everybody needs one.</span>
+      <p class="hero-desc">The BackpackForYou store was created with the idea of ​​bringing together in one store the
+        most innovative, modern and beautiful backpacks on the market, all for a price that fits in your pocket.
+      </p>
+      <p class="hero-slogan">
+        Find your style.
+        Choose your way.</p>
+    </div>
+  </div>
+
+  <main id="content">
+    <div class="card">
+      <figure>
+        <img src="assets/images/greybp.png" alt="">
+      </figure>
+      <section class="details">
+        <div class="min-details">
+          <h1>Backpack <span>desc</span></h1>
+          <h1 class="price">$49,99</h1>
+        </div>
+
+        <div class="options">
+          <div class="options-size">
+            <h1>sizes</h1>
+            <ul>
+              <li>xs</li>
+              <li>s</li>
+              <li>m</li>
+              <li>l</li>
+              <li>xl</li>
+            </ul>
+          </div>
+
+          <div class="options-colors">
+            <h1>colors</h1>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <div class="addcart">
+          <a href="#" class="addcart-button">add to cart</a>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="js/glider.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  
 </body>
+
 </html>
