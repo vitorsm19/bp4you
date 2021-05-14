@@ -131,16 +131,21 @@
       background-color:#0088a9 !important;
       flex-direction: column;
   }
-  #glide {
+  .glide-container {
       width: 80%;
       background-color:#0088a9;
   }
 .glide__arrow {
     top: 100%;
 }
+.glide__arrows {
+    width: 10%;
+}
 
-.best-seller-title h1{
-
+.best-seller-title{
+    font-size: 36px;
+    font-weight:bold;
+    color: #fff;
 }
   .glide__slide {
       display: flex;
@@ -305,14 +310,15 @@
     padding: 0px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     height: 60vh;
     width: 100%;
-    background-image: url("assets/images/hero.png");
     opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y:50% ;
+    background-position-y:50%;
+
+
   }
   
   .hero-content {
@@ -322,10 +328,9 @@
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    width: 600px;
+    width: 100%;
     height:40vh;
-    
-    margin-left: 150px;
+    padding: 30px 50% 30px 10%;
   }
   
   .hero-title {
@@ -361,6 +366,10 @@
       top: 15px;
       right: 35px;
     }
+
+    .hero-content {
+        padding: 30px 10% 30px 10%;
+      }
   }
   
   @media only screen and (max-width: 767px) {
@@ -371,5 +380,10 @@
     .menu {
       display: initial;
     }
+
+    .hero-content {
+       
+        padding: 30px 10% 30px 10%;
+      }
   }
-  
+ 

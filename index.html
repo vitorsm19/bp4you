@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="nav-header">
     <a class="logo" href="/"><img src="assets/images/logo.png" alt="logo" class="img-logo"></a>
     <nav>
       <ul class="nav__links">
@@ -42,6 +42,7 @@
         Choose your way.
         We'll hold your back.</p>
     </div>
+  
   </div>
 
 
@@ -49,13 +50,12 @@
 
     <section id="best-seller">
 
-      <div class="prev">
+      <header id="best-seller-header">
+        <span class="best-seller-title">Best Sellers</span>
+      </header>
 
-        <div class="glide__arrows" data-glide-el="controls">
-          <button class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
-        </div>
-      </div>
-      <div id="glide">
+      
+      <div id="glide" class="glide-container">
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
 
@@ -308,59 +308,15 @@
 
           </ul>
         </div>
-
-        
       </div>
-      <div class="next">
-        <div class="glide__arrows" data-glide-el="controls">
-          <button class="glide__arrow glide__arrow--right" data-glide-dir=">"></button>
-        </div>
+ 
+      <div id="">
+        
+
       </div>
 
     </section>
-
-
-
-
-    <div class="card">
-      <figure>
-        <img src="assets/images/greybp.png" alt="">
-      </figure>
-      <section class="details">
-        <div class="min-details">
-          <h1>Backpack <span>desc</span></h1>
-          <h1 class="price">$49,99</h1>
-        </div>
-
-        <div class="options">
-          <div class="options-size">
-            <h1>sizes</h1>
-            <ul>
-              <li>xs</li>
-              <li>s</li>
-              <li>m</li>
-              <li>l</li>
-              <li>xl</li>
-            </ul>
-          </div>
-
-          <div class="options-colors">
-            <h1>colors</h1>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-        </div>
-        <div class="addcart">
-          <a href="#" class="addcart-button">add to cart</a>
-        </div>
-
-      </section>
-    </div>
+    
   </main>
 
   <script type="text/javascript" src="js/glide.js"></script>
@@ -372,3 +328,4 @@
 </body>
 
 </html>
+
