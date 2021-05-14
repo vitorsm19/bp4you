@@ -10,3 +10,17 @@ menuOpen.addEventListener("click", () => {
 menuClose.addEventListener("click", () => {
   overlay.classList.remove("overlay--active");
 });
+
+
+var glide = new Glide('#glide', {
+  type: 'carousel',
+  perView: 3,
+  focusAt: 'center',
+  breakpoints: {
+    767: {
+      perView: 2
+    }
+  }
+})
+
+glide.mount()
