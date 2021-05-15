@@ -17,8 +17,8 @@ var glide = new Glide('#glide', {
   perView: 3.3,
   focusAt: 'center',
   breakpoints: {
-    767: {
-      perView: 2
+    768: {
+      perView: 1
     }
   }
 })

@@ -111,16 +111,14 @@
     color: #edf0f1;
     cursor: pointer;
   }
-  
-  .logo {
-  
-  }
-
+ 
   #best-seller-header {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 60px;
+      height: 80px;
+      width: 100%;
+      margin-top: 10px;
   }
   
   #best-seller {
@@ -317,8 +315,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y:50%;
-
-
   }
   
   .hero-content {
@@ -357,19 +353,21 @@
     background-color: #f2f2f2;
   }
   
-  @media screen and (max-height: 450px) {
-    .overlay a {
-      font-size: 20px;
-    }
-    .overlay .close {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-    }
 
+  
+  @media screen and (max-width: 450px) {
+        
     .hero-content {
-        padding: 30px 10% 30px 10%;
-      }
+      padding: 30px 10% 30px 10%;
+    }
+    
+    .img-logo {
+      height:32px;
+    }
+    
+    .best-seller-title {
+      font-size: 32px;
+    }
   }
   
   @media only screen and (max-width: 767px) {
@@ -380,10 +378,22 @@
     .menu {
       display: initial;
     }
-
+    
     .hero-content {
-       
-        padding: 30px 10% 30px 10%;
-      }
+      
+      padding: 0px 10%;
+    }
   }
- 
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+
+  
+  }
