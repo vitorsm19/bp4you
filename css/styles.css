@@ -377,6 +377,10 @@
     .best-seller-title {
       font-size: 32px;
     }
+
+    .hero{
+      height:80vh;
+    }
   }
   
   @media only screen and (max-width: 767px) {
@@ -412,9 +416,4 @@
   
   }
   
-  @media screen and (max-width: 350px) {
-        
-    .hero{
-      height:80vh;
-    }
-  }
+ 
