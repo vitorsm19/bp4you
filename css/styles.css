@@ -411,3 +411,10 @@
 
   
   }
+  
+  @media screen and (max-width: 350px) {
+        
+    .hero{
+      height:80vh;
+    }
+  }
