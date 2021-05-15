@@ -14,7 +14,7 @@ menuClose.addEventListener("click", () => {
 
 var glide = new Glide('#glide', {
   type: 'carousel',
-  perView: 3.3,
+  perView: 3,
   focusAt: 'center',
   breakpoints: {
     768: {

@@ -5,11 +5,13 @@
     font-family: "Montserrat", sans-serif;
   }
   
+/* ----------NAV---------- */
+
   #nav-header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
     background-color: #24252a;
   }
   
@@ -62,8 +64,6 @@
     background-color: rgba(0, 136, 169, 0.8);
   }
   
-  /* Mobile Nav */
-  
   .menu {
     display: none;
   }
@@ -111,7 +111,58 @@
     color: #edf0f1;
     cursor: pointer;
   }
- 
+
+/* ----------HERO---------- */
+
+  .hero {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+    width: 100%;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:50%;
+  }
+  
+  .hero-content {
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height:40vh;
+    padding: 30px 50% 30px 10%;
+  }
+  
+  .hero-title {
+      font-size: 50px;
+      color: #000;
+      font-weight:bold;
+     
+  }
+
+  .hero-desc {
+    font-size: 16px;
+    color: #000;
+    font-style: italic;
+    margin-top: 15px;
+  }
+
+  .hero-slogan {
+    font-size: 16px;
+    color: #0088a9;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  /* ----------BEST SELLER---------- */
+  
   #best-seller-header {
       display: flex;
       justify-content: center;
@@ -125,26 +176,34 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      height:400px;
+      height:440px;
       background-color:#0088a9 !important;
       flex-direction: column;
+      background-color: #f2f2f2;
   }
-  .glide-container {
-      width: 80%;
-      background-color:#0088a9;
-  }
-.glide__arrow {
-    top: 100%;
-}
-.glide__arrows {
-    width: 10%;
-}
-
-.best-seller-title{
+  
+  .best-seller-title{
     font-size: 36px;
     font-weight:bold;
     color: #fff;
 }
+
+/* ----------GLIDE---------- */
+
+  .glide-container {
+      width: 80%;
+      background-color:#0088a9;
+      margin-bottom: 20px;
+  }
+
+  .glide__arrow {
+      top: 100%;
+  }
+
+  .glide__arrows {
+      width: 10%;
+  }
+
   .glide__slide {
       display: flex;
       justify-content: center;
@@ -152,6 +211,8 @@
       padding: 10px 0px;
      
   }
+
+  /* ----------CARD---------- */
 
   .card {
     position: relative;
@@ -266,6 +327,14 @@
     background-color: #192a56;
   }
   
+  .addcart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  }
+  
   .addcart-button {
     background-color: #0088a9;
     border-radius: 5px;
@@ -280,7 +349,6 @@
                 transform .3s ease-in-out;
   }
   
-  
   .btn:hover {
   box-shadow: 0 5px 10px rgba(0,0,0,.3);
   transform: translateY(-2px);
@@ -290,69 +358,10 @@
   font-size: 1.2rem !important;
   }
   
-  .addcart {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
-  margin: 0px;
-  }
-  
   .min-details h1 {
   font-size: 1rem;
    text-transform: capitalize;
   }
-  
-  .hero {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60vh;
-    width: 100%;
-    opacity: 0.9;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y:50%;
-  }
-  
-  .hero-content {
-    display:flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height:40vh;
-    padding: 30px 50% 30px 10%;
-  }
-  
-  .hero-title {
-      font-size: 50px;
-      color: #000;
-      font-weight:bold;
-     
-  }
-  .hero-desc {
-    font-size: 16px;
-    color: #000;
-    font-style: italic;
-    margin-top: 15px;
-  }
-  .hero-slogan {
-    font-size: 16px;
-    color: #0088a9;
-    margin-top: 15px;
-    font-weight: bold;
-     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-  }
-  
-  #best-seller {
-    background-color: #f2f2f2;
-  }
-  
 
   
   @media screen and (max-width: 450px) {
@@ -378,7 +387,12 @@
     .menu {
       display: initial;
     }
-    
+    .cta i {
+      font-size: 20px;
+    }
+    .cta {
+      padding: 17px 19px;
+    }
     .hero-content {
       
       padding: 0px 10%;
