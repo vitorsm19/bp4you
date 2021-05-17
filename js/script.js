@@ -16,6 +16,8 @@ var glide = new Glide('#glide', {
   type: 'carousel',
   perView: 3,
   focusAt: 'center',
+  dragDistance: false,
+  touchDistance:false,
   breakpoints: {
     768: {
       perView: 1
