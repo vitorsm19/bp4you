@@ -112,8 +112,7 @@
     cursor: pointer;
   }
 
-
-/* ----------HERO---------- */
+  /* ----------HERO---------- */
 
   .hero {
     margin: 0px;
@@ -175,6 +174,16 @@
   }
 
   /* ----------BEST SELLER---------- */
+
+  #best-seller {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height:440px;
+      background-color:#5f0177 !important;
+      flex-direction: column;
+   
+  }
   
   #best-seller-header {
       display: flex;
@@ -183,16 +192,6 @@
       height: 80px;
       width: 100%;
       margin-top: 10px;
-  }
-  
-  #best-seller {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height:440px;
-      background-color:#5f0177 !important;
-      flex-direction: column;
-     
   }
   
   .best-seller-title{
