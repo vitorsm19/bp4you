@@ -47,13 +47,13 @@
   }
   
   .nav__links li a:hover {
-    color: #0088a9;
+    color: #5f0177;
   }
   
   .cta {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgba(95, 1, 119, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -61,7 +61,7 @@
   }
   
   .cta:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgba(95, 1, 119, 0.8);
   }
   
   .menu {
@@ -101,7 +101,7 @@
   
   .overlay a:hover,
   .overlay a:focus {
-    color: #0088a9;
+    color: #5f0177;
   }
   .overlay .close {
     position: absolute;
@@ -144,23 +144,34 @@
   
   .hero-title {
       font-size: 50px;
-      color: #000;
+      color: #fff;
       font-weight:bold;
-     
+      text-shadow: 2px 2px 1.5px #5f0177;
   }
 
   .hero-desc {
     font-size: 16px;
-    color: #000;
+    color: #fff;
     font-style: italic;
     margin-top: 15px;
   }
 
+  .hero-slogan-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 25px;
+  }
+
   .hero-slogan {
-    font-size: 16px;
-    color: #0088a9;
+    font-size: 15px;
+    color: #000;
     margin-top: 15px;
-    font-weight: bold;
+    font-weight: 700;
+    width: 33%;
+    text-shadow: 1px 0px 1.5px #5f0177;
   }
 
   /* ----------BEST SELLER---------- */
@@ -179,9 +190,9 @@
       align-items: center;
       justify-content: center;
       height:440px;
-      background-color:#0088a9 !important;
+      background-color:#5f0177 !important;
       flex-direction: column;
-      background-color: #f2f2f2;
+     
   }
   
   .best-seller-title{
@@ -193,8 +204,8 @@
 /* ----------GLIDE---------- */
 
   .glide-container {
-      width: 80%;
-      background-color:#0088a9;
+      width: 65%;
+      background-color:#5f0177;
       margin-bottom: 20px;
   }
 
@@ -322,7 +333,7 @@
   }
   
   .addcart-button {
-    background-color: #0088a9;
+    background-color: #5f0177;
     border-radius: 5px;
     color: #FFF;
     display: block;
@@ -368,7 +379,7 @@
     }
 
     .hero{
-      height:65vh;
+      height:60vh;
     }
   }
   
@@ -385,11 +396,42 @@
     }
     .cta {
       padding: 17px 19px;
+      background-color: transparent !important;
     }
     .hero-content {
       
       padding: 0px 10%;
     }
+    .hero-slogan-container{
+      flex-direction: column;
+      }
+    
+      .hero-slogan {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+        width: 100%;
+      }
+
+      .hero-title {
+        font-size: 44px;
+    }
+    .hero-desc{
+      font-size: 14px;
+    }
+
+    .hero-slogan{
+      font-size: 16px;
+    }
+
+    .hero-slogan-container{
+    
+      margin-top: 40px;
+    }
+    .glide-container {
+      width: 70%;
+     
+  }
   }
   
   @media screen and (max-height: 450px) {
