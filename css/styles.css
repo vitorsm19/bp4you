@@ -122,10 +122,11 @@
     justify-content: center;
     height: 55vh;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(27, 27, 27, 0.8)), url(../assets/images/backg.png);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(27, 27, 27, 0.8)), url(../assets/images/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y:50%;
+    background-position-x: 15%;
   }
   
   .hero-content {
@@ -180,7 +181,7 @@
       justify-content: center;
       height:440px;
       background-color:#5f0177 !important;
-      flex-direction: column;
+      flex-direction: wrap;
    
   }
   
@@ -192,19 +193,37 @@
       width: 100%;
       margin-top: 10px;
   }
-  
-  .best-seller-title{
-    font-size: 36px;
-    font-weight:bold;
-    color: #fff;
+
+.best-seller-container{
+ display:flex;
+ flex-direction: column;
+ height: 320px;
+ width:30%;
 }
+
+.slogan{
+  height:33%;
+  display: flex;
+  align-items: center;
+  padding: 0px 10%;
+}
+  
+.slogan-text{
+  font-size: 24px;
+  font-weight:bold;
+  color: #fff;
+}
+
+.one, .two, .three{
+justify-content:center;
+}
+
 
 /* ----------GLIDE---------- */
 
   .glide-container {
-      width: 65%;
+      width: 55%;
       background-color:#5f0177;
-      margin-bottom: 20px;
   }
 
   .glide__arrow {
