@@ -207,15 +207,16 @@
   align-items: center;
   padding: 0px 10%;
 }
-  
-.slogan-text{
+
+.slogan-text {
   font-size: 24px;
-  font-weight:bold;
-  color: #fff;
+  color: #ffffff;
+  font-weight: 700;
+ 
 }
 
 .one, .two, .three{
-justify-content:center;
+justify-content:flex-end;
 }
 
 
