@@ -12,16 +12,17 @@ menuClose.addEventListener("click", () => {
 });
 
 
-var glide = new Glide('#glide', {
+var glide = new Glide('.glide', {
   type: 'carousel',
   perView: 2.5,
   focusAt: 1,
-  startAt: 1,
+  startAt: 0,
   dragDistance: false,
   touchDistance:false,
   breakpoints: {
     768: {
-      perView: 1
+      perView: 1,
+      focusAt: 1
     }
   }
 })
