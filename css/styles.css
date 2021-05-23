@@ -22,7 +22,7 @@
 
 .img-logo {
   height: 40px;
-  filter: drop-shadow(0 0 50px #fff);
+  filter: drop-shadow(0 0 28px #fff);
 }
 
 .nav__links {
@@ -536,7 +536,6 @@
 
   .one {
     justify-content: flex-start;
-
   }
 
   .two {
