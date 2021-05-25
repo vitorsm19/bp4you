@@ -7,7 +7,7 @@
 
 /* ----------NAV---------- */
 
-#nav-header {
+#header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -22,7 +22,7 @@
 
 .img-logo {
   height: 40px;
-  filter: drop-shadow(0 0 28px #fff);
+  filter: drop-shadow(0 0 50  px rgb(177, 177, 177));
 }
 
 .nav__links {
