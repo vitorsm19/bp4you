@@ -13,6 +13,8 @@
   align-items: center;
   padding: 20px 10%;
   background-color: #24252a;
+  width: 100%;
+  z-index: 99999;
 }
 
 .logo {
@@ -156,6 +158,7 @@
   color: #fff;
   font-style: italic;
   margin-top: 15px;
+  text-align: left;
 }
 
 .hero-slogan-container {
@@ -185,7 +188,6 @@
   height: 440px;
   background-color: #5f0177 !important;
   flex-direction: row;
-
 }
 
 #best-seller-header {
@@ -286,6 +288,7 @@
   left: -3%;
 }
 
+
 /* ----------CARD---------- */
 
 .card {
@@ -322,7 +325,7 @@
 
 .card:hover .details {
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
-  top: 20%;
+  top: 40%;
 }
 
 .details>.min-details,
@@ -402,7 +405,7 @@
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
-  width: 60%;
+  width: 80%;
   transition: box-shadow .3s ease-in-out,
     transform .3s ease-in-out;
 }
@@ -422,6 +425,28 @@
 .min-details h1 {
   font-size: 1rem;
   text-transform: capitalize;
+}
+
+.product-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:40%;
+}
+
+.product-arrow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 20%;
+  font-size: 12px;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:40%;
 }
 
 /* ----------CATEGORIES---------- */
@@ -526,7 +551,12 @@
   }
 
     .card:hover .details {
-    top: 12%;
+    top: 40%;
+  }
+
+
+  .addcart-button{
+    width: 80%;
   }
 
   .best-seller-container {

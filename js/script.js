@@ -2,9 +2,19 @@ const doc = document;
 const menuOpen = doc.querySelector(".menu");
 const menuClose = doc.querySelector(".close");
 const overlay = doc.querySelector(".overlay");
+const bestSeller = doc.querySelector(".bs");
+const categories = doc.querySelector(".ctg");
 
 menuOpen.addEventListener("click", () => {
   overlay.classList.add("overlay--active");
+});
+
+bestSeller.addEventListener("click", () => {
+  overlay.classList.remove("overlay--active");
+});
+
+categories.addEventListener("click", () => {
+  overlay.classList.remove("overlay--active");
 });
 
 menuClose.addEventListener("click", () => {
